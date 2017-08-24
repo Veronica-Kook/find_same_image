@@ -33,9 +33,7 @@ class Maintable(Frame):
     # TODO
     # hidden 이미지 셔플링
     def random_shuffle(self):
-        pass
-    # 선택된 알파벳 ImageButton의 숨겨진 이미지 출력
-    def show_hidden(self, event):
+        print('random')
         event.widget.config(image=event.widget.get_hidden())
 
     # TODO
